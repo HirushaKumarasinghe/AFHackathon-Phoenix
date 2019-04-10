@@ -1,0 +1,1 @@
+{"version":3,"sources":["login.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"login.c1c8bff8.css","sourceRoot":"..\\src","sourcesContent":["select, label {\r\n    width:180px;\r\n    clear:left;\r\n    text-align:right;\r\n    padding-right:10px;\r\n}\r\n\r\ninput, label {\r\n    float:left;\r\n}"]}
