@@ -2,12 +2,153 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>React JS</title>
+    <title>Phoenix</title>
     <link rel="stylesheet" type="text/css" href="login.css">.
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 260px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        .sidenav a {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #818181;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .row{
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        fieldset {
+            padding-top: 15px;
+            padding-bottom: 20px;
+        }
+
+        legend {
+            color: aliceblue;
+        }
+
+        h3{
+            color: #111111;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        h4{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        h5{
+            font-size: 30px;
+        }
+
+        h6{
+            color: white;
+            font-weight: bold;
+        }
+
+        view{
+            size: 100px;
+        }
+
+        .rating{
+            height: 50px;
+            width: 50px;
+        }
+
+        .offers {
+            background-color: whitesmoke;
+            width: 300px;
+            border: 2px solid green;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        #myImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .text-block {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #myImg:hover {opacity: 0.7;}
+
+        .main {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        p{
+            font-size: medium;
+        }
+
+        .active {
+            background-color: #4CAF50;
+        }
+    </style>
 </head>
 <body>
 <div id="app"></div>
